@@ -9,7 +9,7 @@
 #hello{
     width: 20%;
     height: 40px;
-    background-color: green;
+    background-color:rgb(45, 141, 180);
     border: none;
     border-radius: 30px;
    
@@ -17,19 +17,19 @@
 #hai{
     width: 20%;
     height: 40px;
-    background-color: green;
+    background-color: rgb(45, 141, 180);
     border: none;
     border-radius: 30px;
 }
 #hello:hover{
-    background-color: chartreuse;
+    background-color: white;
     color: black;
 }
 #hello:hover{
     cursor: pointer;
 }
 #hai:hover{
-    background-color: chartreuse;
+    background-color: white;
     color: black;
 }
 #hai:hover{
@@ -40,4 +40,10 @@ footer{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+body {
+    margin: 0; 
+    height: 100vh; 
+    background: url("https://tse3.mm.bing.net/th/id/OIP.b7EiYlQ4CpI5CtF2sM-cZgHaDO?cb=defcachec2&w=800&h=348&rs=1&pid=ImgDetMain&o=7&rm=3") no-repeat center center fixed;
+    background-size: cover; 
 }
